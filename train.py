@@ -42,7 +42,7 @@ def structure_loss(pred, mask):
 
 
 def main(args):    
-    dataset = FullDataset(args.train_image_path, args.train_mask_path, 352, mode='train')
+    dataset = FullDataset(args.train_image_path, args.train_mask_path, 1024, mode='train')
     dataloader = DataLoader(dataset, batch_size=args.batch_size, shuffle=True, num_workers=8)
     device = torch.device("cuda")
     model = SAM2UNeXT(args.hiera_path, args.dinov2_path)
