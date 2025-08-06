@@ -32,7 +32,7 @@ for i in range(test_loader.size):
         image, gt, name = test_loader.load_data()
         gt = np.asarray(gt, np.float32)
         image = image.to(device)
-        res, _, _ = model(image)
+        res = model(image)
         # fix: duplicate sigmoid
         # res = torch.sigmoid(res)
         res = F.upsample(res, size=gt.shape, mode='bilinear', align_corners=False)
