@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ## Training
 If you want to train your own model, please download:
 * the pre-trained segment anything 2 (not SAM2.1, [#issue [#18](https://github.com/WZH0120/SAM2-UNet/issues/18), [#30](https://github.com/WZH0120/SAM2-UNet/issues/30)]) from [here](https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt)
-* the pre-trained dinov2 from [here](https://huggingface.co/timm/vit_base_patch14_dinov2.lvd142m/resolve/main/model.safetensors?download=true)
+* the pre-trained dinov2 from [here](https://huggingface.co/timm/vit_large_patch14_dinov2.lvd142m/resolve/main/model.safetensors?download=true)
 
 After the above preparations, you can run `train.sh` to start your training.
 
