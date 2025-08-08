@@ -46,7 +46,12 @@ After obtaining the prediction maps, you can run `eval.sh` to get the quantitati
 ## Citation and Star
 Please cite the following paper and star this project if you use this repository in your research. Thank you!
 ```
-TBD
+@article{xiong2025sam2,
+  title={SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to Downstream Segmentation Tasks},
+  author={Xiong, Xinyu and Wu, Zihuang and Zhang, Lei and Lu, Lei and Li, Ming and Li, Guanbin},
+  journal={arXiv preprint arXiv:2508.03566},
+  year={2025}
+}
 ```
 
 ## Acknowledgement
